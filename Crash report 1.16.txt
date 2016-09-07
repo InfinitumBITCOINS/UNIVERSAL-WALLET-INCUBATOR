@@ -1,0 +1,90 @@
+
+
+
+
+=== application info ===
+
+Version: 1.16 (172)
+Package: com.vasilkoff.wallet.fbgcn
+Databases: address_book address_book-journal arcade arcade-journal scores scores-journal
+
+Contents of FilesDir /data/data/com.vasilkoff.wallet.fbgcn/files:
+2016-08-06 02:18:00     4096  files
+  - 2016-08-06 02:18:00      147  gcoin-wallet-protobuf
+  - 2016-08-06 05:17:24      153  gcoin-key-backup-base58
+  - 2016-08-02 19:17:08      153  gcoin-key-backup-base58.15
+  - 2016-08-04 08:59:36      153  gcoin-key-backup-base58.16
+  - 2016-08-04 18:31:03      153  gcoin-key-backup-base58.17
+  - 2016-08-06 05:17:24      153  gcoin-key-backup-base58.18
+
+Contents of CacheDir /data/data/com.vasilkoff.wallet.fbgcn/cache:
+2016-08-06 05:17:24     4096  cache
+  - 2016-08-06 05:17:12     7992  com.android.opengl.shaders_cache
+  - 2016-08-06 05:16:32     4096  org.chromium.android_webview
+  -   - 2016-08-06 05:16:32       24  index
+  -   - 2016-08-06 05:16:52     4096  index-dir
+  -   -   - 2016-08-06 05:16:52       68  the-real-index
+  -   - 2016-08-06 05:16:32      322  ce0fcd9e7ac216a3_0
+
+
+
+=== stack trace ===
+
+android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.VIEW dat=gcoin:GWqdBPbMZYB2HwZgFtKSVghHptEUX6YoAC?amount=999999999999999999999999999999999999999999999999999999999&label=a.payments.99999999999999999999.99999999.gcoins.a }
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1781)
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1501)
+	at android.app.Activity.startActivityForResult(Activity.java:3857)
+	at android.app.Activity.startActivityForResult(Activity.java:3818)
+	at android.support.v4.app.FragmentActivity.startActivityFromFragment(FragmentActivity.java:683)
+	at android.support.v4.app.Fragment.startActivity(Fragment.java:783)
+	at com.vasilkoff.wallet.fbgcn.ui.RequestCoinsFragment.onOptionsItemSelected(RequestCoinsFragment.java:229)
+	at android.support.v4.app._ActionBarSherlockTrojanHorse.onMenuItemSelected(_ActionBarSherlockTrojanHorse.java:127)
+	at com.actionbarsherlock.ActionBarSherlock.callbackOptionsItemSelected(ActionBarSherlock.java:600)
+	at com.actionbarsherlock.internal.ActionBarSherlockNative.dispatchOptionsItemSelected(ActionBarSherlockNative.java:78)
+	at com.actionbarsherlock.app.SherlockFragmentActivity.onMenuItemSelected(SherlockFragmentActivity.java:194)
+	at com.android.internal.policy.impl.PhoneWindow.onMenuItemSelected(PhoneWindow.java:1172)
+	at com.android.internal.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:761)
+	at com.android.internal.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:152)
+	at com.android.internal.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:904)
+	at com.android.internal.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:894)
+	at com.android.internal.view.menu.MenuPopupHelper.onItemClick(MenuPopupHelper.java:186)
+	at android.widget.AdapterView.performItemClick(AdapterView.java:305)
+	at android.widget.AbsListView.performItemClick(AbsListView.java:1159)
+	at android.widget.AbsListView$PerformClick.run(AbsListView.java:3073)
+	at android.widget.AbsListView$3.run(AbsListView.java:3902)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:159)
+	at android.app.ActivityThread.main(ActivityThread.java:5541)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:964)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:759)
+
+
+
+=== device info ===
+
+Date: Sat Aug 06 05:17:35 GMT+10:00 2016
+Phone Model: F1f
+Android Version: 5.1.1
+Board: msm8916
+Brand: OPPO
+Device: F1f
+Display: F1fEX_11_160526
+Finger Print: OPPO/F1f/F1f:5.1.1/LMY47V/1446204988:user/release-keys
+Host: ubuntu-WX-122-176
+ID: LMY47V
+Model: F1f
+Product: F1f
+Tags: release-keys
+Time: 1464261431000
+Type: user
+User: root
+Configuration: {1.0 505mcc2mnc en_US ldltr sw360dp w360dp h615dp 320dpi nrml long port finger -keyb/v/h -nav/h s.134mThemeChanged = 0mThemeChangedFlags = 0mFlipFont = 0}
+Screen Layout: size 2 long 32
+Display Metrics: DisplayMetrics{density=2.0, width=720, height=1280, scaledDensity=2.0, xdpi=294.967, ydpi=295.563}
+Memory Class: 256
+
+
+PUT ADDITIONAL COMMENTS TO THE TOP. DOWN HERE NOBODY WILL NOTICE.
